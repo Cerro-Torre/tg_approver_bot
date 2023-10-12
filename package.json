@@ -1,0 +1,24 @@
+{
+  "name": "tg_approver_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start_bot": "node ./src/bot.js",
+    "start_server": "node ./src/server.js",
+    "dev_bot": "nodemon ./src/bot.js",
+    "dev_server": "nodemon ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.63.0"
+  }
+}
